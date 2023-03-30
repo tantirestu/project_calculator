@@ -1,0 +1,85 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.card{
+    background-color:  #f1f3f5;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12 #fff, 5px 5px 12pxrgb(0,0,0,0.16);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display{
+    height: 30%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f1f3f5;
+    box-shadow: inset 2px 3px 11px rgb(0,0,0,0.16), 5px 5px 12px #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.display input{
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    font-size: 30px;
+    width: 90%;
+    outline: none;
+}
+.button{
+    
+    height: 70%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tombol-kiri{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.tombol{
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px #fff;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(16, 89, 226);
+}
+
+.tombol:hover{
+    transform: scale(0.9);
+}
+
+.tombol-kanan{
+    border-radius: 20px;
+    background-color: rgb(187, 232, 243);
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px rgba(0,0,0, 0.16), 5px 5px 10px #f8dcdc;
+}
