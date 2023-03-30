@@ -1,5 +1,6 @@
 body{
-    background-color: aquamarine;
+    background-image: url(https://i.pinimg.com/originals/1d/21/7c/1d217cf6006d1365714b8dfec49b5bd3.jpg);
+    background-repeat: repeat;
     display: flex;
     justify-content: center;
     align-items: center;
